@@ -1,0 +1,30 @@
+{
+  "name": "rtoskernelapi",
+  "version": "0.1.0",
+  "description": "C++ API for freertos",
+  "keywords": "c++, cpp, c-plus-plus, freertos, platformio",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/meikjaeckle/rtos-kernel-api-cpp"
+  },
+  "authors":
+  [
+    {
+      "name": "Meik Jaeckle",
+      "url": "https://github.com/meikjaeckle"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/meikjaeckle/rtos-kernel-api-cpp",
+  "dependencies": {
+	},
+  "build": {
+    "srcDir": "lib",
+    "srcFilter": "+<*>",
+    "includeDir": "lib/include",
+    "flags": [
+      "-I lib/include"
+    ]
+  }
+}
